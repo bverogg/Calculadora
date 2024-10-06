@@ -93,7 +93,7 @@ fun MyCalculadora() {
 @Composable
 fun CalculatorButton(label: String) {
     Button(
-        onClick = { /* Manejar clic en el botón */ },
+        onClick = {  },
         shape = CircleShape, // Forma circular
         modifier = Modifier
             .padding(start = 16.dp, top = 8.dp, end = 16.dp, bottom = 8.dp)// Espacio entre botones
@@ -103,6 +103,6 @@ fun CalculatorButton(label: String) {
             fontSize = 24.sp,
             color = Color.White,
             modifier = Modifier
-                .padding(top = 10.dp, bottom = 10.dp)) // Tamaño de fuente para los botones
+                .padding(top = 10.dp, bottom = 10.dp))
     }
 }
